@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/about.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/vars.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>About</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <header class="header">
+          <p class="header__text">
+            Проєкт змін у навчанні письма, програми для майбутніх учителів та
+            підвищення кваліфікації педагогів
+          </p>
+
+          <a href="/Pages/Home.html">
+            <img class="header__logo" src="../images/logo.png" alt="logo" />
+          </a>
+
+          <div class="header__mobile">
+            <img src="../images/logo.png" alt="logo" />
+
+            <p class="header__mobile__text">
+              Проєкт змін у навчанні письма, програми для майбутніх учителів та
+              підвищення кваліфікації педагогів
+            </p>
+          </div>
+
+          <div class="header__logos">
+            <img src="../images/header/NUSLogo1.png" alt="logo 1" />
+            <img src="../images/header/logo2.svg" alt="logo 2" />
+          </div>
+        </header>
+      </div>
+
+      <ul class="menu__list">
+        <li class="menu__list__active">
+          <a href="/Pages/Home.html">Головна</a>
+        </li>
+        <li>
+          <a href="/Pages/About.html">Деталі проєкту</a>
+        </li>
+        <li class="manu__list__item-popup">
+          <a class="menu__open-btn" href="#">
+            Матеріали <i class="fa-solid fa-chevron-down"></i>
+          </a>
+
+          <nav class="menu__list__popup">
+            <ul>
+              <li><a href="/Pages/Materials-1.html">Пункт 1</a></li>
+
+              <li><a href="/Pages/Materials-1.html">Пункт 2</a></li>
+
+              <li><a href="/Pages/Materials-1.html">Пункт 3</a></li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+
+      <main class="about__main">
+        <div class="container">
+          <section class="about__project__details">
+            <h1 class="about__project__details-title">Детально про проєкт</h1>
+            <p class="about__project__details-text">
+              Національний проект: пишемо есе - унікальний проєкт  ГО “Смарт
+              Освіти”, реалізований за участі спеціалістів національного та
+              міжнародного рівнів
+            </p>
+            <img
+              class="about__project__details-image"
+              src="../images/about/project-details-img.png"
+              alt="project image"
+            />
+          </section>
+        </div>
+
+        <section class="about__main__teacher">
+          <div class="about__main__teacher-buttons">
+            <button onclick="goPrev()">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <button onclick="goNext()">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="about__main__teacher-content slide">
+            <div class="about__main__teacher-image">
+              <button onclick="goPrev()">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <img src="../images/about/teacher.png" alt="teacher" />
+
+              <button onclick="goNext()">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="about__main__teacher-about">
+              <p>
+                До участі у проєкті мене наснажило прагнення віднайти
+                інструменти, які б допомогли учням подолати страх написання
+                текстів. Також, давно відчувала потребу необхідності зміни
+                підходів до письма в Україні.
+              </p>
+
+              <h3>Віра Пітель</h3>
+
+              <h6>
+                Доцентка кафедри української мови Прикарпатського національного
+                університету імені Василя Стефаника.
+              </h6>
+            </div>
+          </div>
+
+          <div class="about__main__teacher-content slide">
+            <div class="about__main__teacher-image">
+              <button onclick="goPrev()">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <img src="../images/about/teacher.png" alt="teacher" />
+
+              <button onclick="goNext()">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="about__main__teacher-about">
+              <p>
+                До участі у проєкті мене наснажило прагнення віднайти
+                інструменти, які б допомогли учням подолати страх написання
+                текстів. Також, давно відчувала потребу необхідності зміни
+                підходів до письма в Україні.
+              </p>
+
+              <h3>Віра Пітель</h3>
+
+              <h6>
+                Доцентка кафедри української мови Прикарпатського національного
+                університету імені Василя Стефаника.
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <section class="about__project-title">
+          <h2>
+            Національний проект: пишемо есе - унікальний проєкт ГО “Смарт
+            Освіти”, реалізований за участі спеціалістів національного та
+            міжнародного рівнів
+          </h2>
+
+          <img src="../images/about/about-logo.png" alt="logo" />
+        </section>
+
+        <section class="about__project-block">
+          <img src="../images/about/project-block-school.png" alt="school" />
+
+          <div class="about__project-block__text">
+            <h2>
+              На їх основі  розробили навчальні матеріали для використання в
+              українських школах
+            </h2>
+
+            <p>
+              Стали національними тренерами по навчанню письмаПроєкт передбачає
+              системні зміни у підходах до викладання письма, а його кінцевим
+              результатом стануть напрацьовані програми навчання для майбутніх
+              учителів і підвищення кваліфікації для педагогів, які вже
+              працюють, аби охопити якомога більше освітян.
+            </p>
+          </div>
+        </section>
+
+        <section class="about__stages">
+          <div class="container-about">
+            <div class="about__stages__block">
+              <h2 class="about__stages__block-title">
+                Проєкт складається із трьох етапів
+              </h2>
+
+              <div class="about__stages__block-top">
+                <div class="about__number__of__stages">
+                  <h1 class="about__number">1</h1>
+                  <h3 class="about__number__text">Перший етап</h3>
+                </div>
+
+                <h2 class="about__number__of__stages-title first">
+                  Підготовка тренерів на національному рівні
+                </h2>
+              </div>
+
+              <div class="about__stages__block-advantages first">
+                <img src="../images/about/stages-img-1.png" alt="stages 1" />
+
+                <ul class="about__stages__block-advantages-list first">
+                  <li>
+                    Ми розпочали за сприяння Grammarly у вересні 2021 року.
+                  </li>
+
+                  <li>Підготовка тренерів на національному рівні</li>
+
+                  <li>
+                    Цей етап складався із 4 модулів та передбачав навчання від
+                    відомих українських експертів.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="about__stages__block-experts">
+                <h2 class="about__stages__block-experts-text">
+                  Експертами цього модулю були:
+                </h2>
+
+                <ul class="about__stages__block-experts-list">
+                  <li>
+                    <img src="../images/about/expert-1.png" alt="expert" />
+                    <h4>Ольга Брюховецька</h4>
+                    <p>
+                      Викладачка кафедри культурології НаУКМА (спеціалізація -
+                      наукове письмо)
+                    </p>
+                  </li>
+
+                  <li>
+                    <img src="../images/about/expert-2.png" alt="expert" />
+                    <h4>Марія Титаренко</h4>
+                    <p>
+                      Викладачка Школи журналістики і комунікацій УКУ, членкиня
+                      PEN Ukraine (спеціалізація - есеїстика і творчопис)
+                    </p>
+                  </li>
+
+                  <li>
+                    <img src="../images/about/expert-3.png" alt="expert" />
+                    <h4>Ігор Хворостяний</h4>
+                    <p>Педагог і практик, кандидат філологічних наук</p>
+                  </li>
+
+                  <li>
+                    <img src="../images/about/expert-4.png" alt="expert" />
+                    <h4>Таня Стус</h4>
+                    <p>
+                      Українська письменниця та літературознавиця. Авторка
+                      книжок для дітей та підлітків. Засновниця й керівниця
+                      Барабуки.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__stages__block-company">
+            <div class="about__stages__block-company-text">
+              <h3>grammarly</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex consequat.
+              </p>
+            </div>
+
+            <div class="about__stages__block-company-image">
+              <img src="../images/about/company-1.png" alt="company" />
+            </div>
+          </div>
+        </section>
+
+        <section class="about__stages">
+          <div class="container-about">
+            <div class="about__stages__block second">
+              <div class="about__stages__block-top">
+                <div class="about__number__of__stages">
+                  <h1 class="about__number">2</h1>
+                  <h3 class="about__number__text">Другий етап</h3>
+                </div>
+
+                <h2 class="about__number__of__stages-title">
+                  Підготовка тренерів на міжнародному рівні
+                </h2>
+              </div>
+
+              <div class="about__stages__block-advantages second">
+                <img src="../images/about/stages-img-2.png" alt="stages 2" />
+
+                <ul class="about__stages__block-advantages-list second">
+                  <li>
+                    Тренерів проєкту навчали провідні експерти із National
+                    Writing Project.
+                  </li>
+
+                  <li>
+                    Цей етап містив 6 навчальних сесій та тривав з листопаду
+                    2022 року по січень 2023 року.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="about__stages__block-experts second">
+                <h2 class="about__stages__block-experts-text">
+                  Експертами цього модулю були:
+                </h2>
+
+                <ul class="about__stages__block-experts-list">
+                  <li>
+                    <img src="../images/about/expert-5.png" alt="expert" />
+
+                    <h4>Джо Гарріс</h4>
+                    <p>
+                      Доктор наук, викладав курси академічного письма в
+                      Університеті Піттсбурга, Університеті Дьюка, Університеті
+                      Делавера та ін. Автор п’яти книг і багатьох статей про
+                      викладання письма та медіазнавства.
+                    </p>
+                  </li>
+
+                  <li>
+                    <img src="../images/about/expert-6.png" alt="expert" />
+
+                    <h4>Том Фокс</h4>
+                    <p>
+                      Почесний професор англійської мови в Університеті Чіко,
+                      штату Каліфорнія. У National Writing Project обіймав
+                      посаду директора розробника сайту, очолив федеральний
+                      грант, спрямований на професійний розвиток викладання есе
+                      у сільських школах.
+                    </p>
+                  </li>
+
+                  <li>
+                    <img src="../images/about/expert-7.png" alt="expert" />
+
+                    <h4>Кейсі Олсен</h4>
+                    <p>
+                      Викладач риторики та мовного мистецтва з 2003
+                      року,працював у команді керівників Програми коледжу,
+                      кар’єри та громадських письменників (C3WP) для National
+                      Writing Project. Герой документального фільму PBS
+                      «American Creed» Citizen Film
+                    </p>
+                  </li>
+
+                  <li>
+                    <img src="../images/about/expert-8.png" alt="expert" />
+
+                    <h4>Бет Рімер</h4>
+                    <p>
+                      Співдиректорка проєкту Огайо Writing Project (OWP).  
+                      Розробниця комплексної програми професійного розвитку для
+                      педагогів різного рівня освіти. Організаторка молодіжних
+                      таборів з письма та координаторка місцевих  конференцій
+                      для вчителів.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__stages__block-company">
+            <div class="about__stages__block-company-text">
+              <h3>National Writing Project</h3>
+              <p>
+                наш партнер  із 45-річним  досвідом досліджень найбільш
+                ефективних способів навчання академічного письма. Вони розробили
+                безліч матеріалів з навчання письма для США та Канади, які
+                використовуються на національному рівні. Експерти із National
+                Writing Project поділилися із нами найновішими і перевіреними
+                підходами у цій сфері, який ми прагнемо привнести в Україну. 
+                Адже саме в США є підхід до навчання письма якому можна
+                навчатися використовуючи є конкретні інструменти
+              </p>
+            </div>
+
+            <div class="about__stages__block-company-image">
+              <img src="../images/about/company-2.png" alt="company" />
+            </div>
+          </div>
+        </section>
+
+        <section class="about__stages third">
+          <div class="container-about">
+            <div class="about__stages__block">
+              <div class="about__stages__block-top">
+                <div class="about__number__of__stages">
+                  <h1 class="about__number">3</h1>
+                  <h3 class="about__number__text">Третій етап</h3>
+                </div>
+
+                <h2 class="about__number__of__stages-title">
+                  Розробка тренерами програм та матеріалів
+                </h2>
+              </div>
+
+              <div class="about__stages__image mobile">
+                <img src="../images/about/stages-img-3.png" alt="stages 3" />
+              </div>
+
+              <ul class="about__stages__block-advantages-list mobile">
+                <li>
+                  На цьому етапі 11 тренерів розробили навчальні програми для
+                  підготовки і підвищення кваліфікації вчителів, зокрема
+                  розробили навчальні матеріали, методичні рекомендацій
+                </li>
+
+                <li>
+                  Ці програми будуть впроваджуватися у вишах та ІППО для
+                  навчання і підвищення кваліфікації педагогів, а школи
+                  отримають доступ до напрацьованих інструментів та методик.
+                </li>
+
+                <li>
+                  За підтримки наших партнерів, ми залучили сучасних українських
+                  письменників, які написали мультитексти для учнів 5-11 класів.
+                  Ці тексти допоможуть учням розвинути критичне мислення та
+                  вміння послідовної, логічної аргументації. Тексти
+                  рекомендовано використовувати у супроводі із розробленими
+                  методичними рекомендаціями, а  як окремі навчальні інструменти
+                  для учнів.
+                </li>
+              </ul>
+
+              <div class="about__stages__block-advantages third">
+                <div class="about__stages__block-advantages-image">
+                  <img src="../images/about/stages-img-3.png" alt="stages 3" />
+                  <div class="about__stages__block-advantages-results third">
+                    <h2>
+                      Результатами впровадження «Національного проєкту: пишемо
+                      есе» стануть:
+                    </h2>
+                    <ul>
+                      <li>
+                        Навчальні програми з розвитку навичок письма та зокрема
+                        есеїв для педагогічних вишів-учасників проєкту;навчальні
+                        програми для підвищення кваліфікації вчителів- практиків
+                        на базі ІППО (для ІППО-учасників проєкту)
+                      </li>
+
+                      <li>
+                        Модифікації до уроків української мови та літератури,
+                        початок їх упровадження в школах (для вчителів-учасників
+                        проєкту)
+                      </li>
+
+                      <li>
+                        Методичні рекомендації для вчителів, як навчати писати
+                        різні види есеїв у школі (будуть безплатно доступні на
+                        сторінках nus.org.ua)
+                      </li>
+
+                      <li>
+                        Команда національних тренерів, навчена найновіших
+                        методик та інструментів із розвитку навичок письма, буде
+                        готувати українських учителів навчати учнів писати
+                        якісно.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <ul class="about__stages__block-advantages-list third">
+                  <li>
+                    На цьому етапі 11 тренерів розробили навчальні програми для
+                    підготовки і підвищення кваліфікації вчителів, зокрема
+                    розробили навчальні матеріали, методичні рекомендацій
+                  </li>
+
+                  <li>
+                    Ці програми будуть впроваджуватися у вишах та ІППО для
+                    навчання і підвищення кваліфікації педагогів, а школи
+                    отримають доступ до напрацьованих інструментів та методик.
+                  </li>
+
+                  <li>
+                    За підтримки наших партнерів, ми залучили сучасних
+                    українських письменників, які написали мультитексти для
+                    учнів 5-11 класів. Ці тексти допоможуть учням розвинути
+                    критичне мислення та вміння послідовної, логічної
+                    аргументації. Тексти рекомендовано використовувати у
+                    супроводі із розробленими методичними рекомендаціями, а  як
+                    окремі навчальні інструменти для учнів.
+                  </li>
+                </ul>
+
+                <img
+                  class="about__stages__logo"
+                  src="../images/about/logo.png"
+                  alt="company logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="about__stages__logo__mobile">
+            <img src="../images/about/logo.png" alt="company logo" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <section class="footer__content">
+            <form class="footer__form">
+              <h1 class="footer__form__title">Напишіть нам</h1>
+
+              <div class="footer__form__block">
+                <label for="footer-name">Ваше ім’я</label>
+                <input
+                  type="text"
+                  id="footer-name"
+                  placeholder="Input Your Name"
+                />
+              </div>
+
+              <div class="footer__form__block">
+                <label for="footer-email">Ваш Email</label>
+                <input
+                  type="email"
+                  id="footer-email"
+                  placeholder="Input Your Email"
+                />
+              </div>
+
+              <div class="footer__form__block">
+                <label for="footer-msg">Ваше повідомлення</label>
+                <textarea
+                  id="footer-msg"
+                  placeholder="Input Your Message"
+                ></textarea>
+              </div>
+
+              <button type="submit">Відправити</button>
+            </form>
+
+            <div class="footer__description">
+              <img
+                class="footer__description__logo"
+                src="../images/footer/footer-logo.png"
+                alt="logo"
+              />
+
+              <ul class="footer__description__list">
+                <li class="footer__description__item">
+                  Усі виключні майнові й немайнові права інтелектуальної
+                  власності на текстові матеріали, фото, зображення, та інші
+                  об’єкти авторського права, що розміщені на цьому веб-сайті
+                  належать ГО “Смарт освіта”, крім об’єктів авторського права,
+                  які містять пряму вказівку на авторство іншої особи;".
+                </li>
+
+                <li class="footer__description__item">
+                  ГО "Смарт освіта" надає дозвіл на безоплатне використання
+                  розміщених на веб-сайті матеріалів,  в навчальному процесі у
+                  закладах загальної середньої освіти. 
+                </li>
+
+                <li class="footer__description__item">
+                  Будь-яке інше використання  матеріалів, що розміщені на
+                  веб-сайті, окрім того, що зазначене у  цьому повідомленні, в
+                  будь-якій формі та будь-яким способом (в тому числі з метою
+                  отримання матеріальної вигоди), без попередньо отриманого
+                  письмового дозволу ГО «Смарт освіта», заборонено.
+                </li>
+              </ul>
+
+              <div class="footer__description__socials">
+                <a class="footer__link" href="#">Всі права захищені.</a>
+
+                <ul class="footer__socials__list">
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+
+                <a class="footer__link__mobile" href="#">Всі права захищені.</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/vars.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Smart Osvita</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <header class="header">
+          <p class="header__text">
+            Проєкт змін у навчанні письма, програми для майбутніх учителів та
+            підвищення кваліфікації педагогів
+          </p>
+
+          <a href="/Pages/Home.html">
+            <img class="header__logo" src="../images/logo.png" alt="logo" />
+          </a>
+
+          <div class="header__mobile">
+            <img src="../images/logo.png" alt="logo" />
+
+            <p class="header__mobile__text">
+              Проєкт змін у навчанні письма, програми для майбутніх учителів та
+              підвищення кваліфікації педагогів
+            </p>
+          </div>
+
+          <div class="header__logos">
+            <img src="../images/header/NUSLogo1.png" alt="logo 1" />
+            <img src="../images/header/logo2.svg" alt="logo 2" />
+          </div>
+        </header>
+      </div>
+
+      <ul class="menu__list">
+        <li class="menu__list__active">
+          <a href="/Pages/Home.html">Головна</a>
+        </li>
+        <li>
+          <a href="/Pages/About.html">Деталі проєкту</a>
+        </li>
+        <li class="manu__list__item-popup">
+          <a class="menu__open-btn" href="#">
+            Матеріали <i class="fa-solid fa-chevron-down"></i>
+          </a>
+
+          <nav class="menu__list__popup">
+            <ul>
+              <li><a href="/Pages/Materials-1.html">Пункт 1</a></li>
+
+              <li><a href="/Pages/Materials-1.html">Пункт 2</a></li>
+
+              <li><a href="/Pages/Materials-1.html">Пункт 3</a></li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+
+      <main class="home__main">
+        <section class="home__main__banner">
+          <div class="home__main__banner-overlay">
+            <div class="home__main__text">
+              <h1>Оновлені методичні програми</h1>
+              <p>для майбутніх учителів та підвищення кваліфікації педагогів</p>
+            </div>
+
+            <div class="home__main__buttons">
+              <button class="home__main__button__left">
+                <img src="../images/main/Download-Left.svg" /> Завантажити есе
+              </button>
+              <button class="home__main__button__right">
+                <img src="../images/main/Download-Right.svg" /> додаткові
+                матеріали
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home__main__block">
+          <p>
+            <span class="home__main__block__bold">Текст місії проєкту</span>
+            Зміни у навчанні письма, програми для майбутніх учителів та
+            підвищення кваліфікації
+          </p>
+
+          <img src="../images/main/block-1.png" alt="teacher" />
+        </section>
+
+        <section class="home__main__teacher">
+          <div class="home__main__teacher-buttons">
+            <button onclick="goPrev()">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <button onclick="goNext()">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="home__main__teacher-content slide">
+            <div class="home__main__teacher-image">
+              <button onclick="goPrev()">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <img src="../images/main/teacher.png" alt="teacher" />
+
+              <button onclick="goNext()">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="home__main__teacher-about">
+              <p>
+                Коли мені запропонували взяти участь у програмі “Національний
+                Проект: пишемо есе”, охоче погодилась. Я очікувала отримати
+                новий досвід, який міг би стати поштовхом до формування нових
+                ідей.
+              </p>
+
+              <h3>Ірина Кузьменчук</h3>
+
+              <h6>
+                Викладачка кафедри мовно-літературної освіти інституту
+                післядипломної освіти Київського університету ім Бориса
+                Грінченка
+              </h6>
+            </div>
+          </div>
+
+          <div class="home__main__teacher-content slide">
+            <div class="home__main__teacher-image">
+              <button onclick="goPrev()">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <img src="../images/main/teacher.png" alt="teacher" />
+
+              <button onclick="goNext()">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="home__main__teacher-about">
+              <p>
+                До участі у проєкті мене наснажило прагнення віднайти
+                інструменти, які б допомогли учням подолати страх написання
+                текстів. Також, давно відчувала потребу необхідності зміни
+                підходів до письма в Україні.
+              </p>
+
+              <h3>Ірина Кузьменчук</h3>
+
+              <h6>
+                Доцентка кафедри української мови Прикарпатського національного
+                університету імені Василя Стефаника.
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <section class="home__stages">
+            <div class="home__stages__left">
+              <h2>Етапи проєкту</h2>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <button>Деталі проєкту</button>
+            </div>
+
+            <div class="home__stages__right">
+              <div class="home__stages__right__blocks">
+                <div class="home__stages__block">
+                  <h5 class="home__stages__block-number">1.</h5>
+                  <h2 class="home__stages__block-title">
+                    Національна підготовка тренерів
+                  </h2>
+                  <img src="../images/main/timeline-img-1.png" alt="timeline" />
+                </div>
+
+                <div class="home__stages__block">
+                  <h5 class="home__stages__block-number">3.</h5>
+                  <h2 class="home__stages__block-title">
+                    Розробка тренерами програм та матеріалів
+                  </h2>
+                  <img src="../images/main/timeline-img-3.png" alt="timeline" />
+                </div>
+              </div>
+
+              <img
+                class="home__stages__timeline"
+                src="../images/main/timeline.svg"
+                alt="timeline"
+              />
+              <img
+                class="home__stages__timeline mobile"
+                src="../images/main/timeline-mobile.svg"
+                alt="timeline"
+              />
+
+              <div class="home__stages__block__right">
+                <div class="home__stages__block mobile">
+                  <h5 class="home__stages__block-number">1.</h5>
+                  <h2 class="home__stages__block-title">
+                    Національна підготовка тренерів
+                  </h2>
+                  <img src="../images/main/timeline-img-1.png" alt="timeline" />
+                </div>
+
+                <div class="home__stages__block">
+                  <h5 class="home__stages__block-number">2.</h5>
+                  <h2 class="home__stages__block-title">
+                    Міжнародна підготовка тренерів
+                  </h2>
+                  <img src="../images/main/timeline-img-2.png" alt="timeline" />
+                </div>
+
+                <div class="home__stages__block mobile">
+                  <h5 class="home__stages__block-number">3.</h5>
+                  <h2 class="home__stages__block-title">
+                    Розробка тренерами програм та матеріалів
+                  </h2>
+                  <img src="../images/main/timeline-img-3.png" alt="timeline" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="home__about">
+          <div class="home__about__subject">
+            <h2>Медіа про проєкт</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor in cididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim.
+            </p>
+          </div>
+
+          <div class="home__about__slider">
+            <ul class="home__about__list">
+              <li class="home__about__item active media-slide">
+                <div class="home__about__image__container">
+                  <img
+                    class="home__about__image"
+                    src="../images/main/about-logo-1.png"
+                    alt="company logo"
+                  />
+                </div>
+
+                <p class="home__about__text">
+                  Мета проєкту — покращити навички учнів висловлювати свою думку
+                  на письмі через навчання вчителів провідного українського та
+                  міжнародного досвіду.
+                </p>
+
+                <button class="home__about__details">
+                  Детальніше <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </li>
+
+              <li class="home__about__item media-slide">
+                <div class="home__about__image__container">
+                  <img
+                    class="home__about__image"
+                    src="../images/main/about-logo-2.png"
+                    alt="company logo"
+                  />
+                </div>
+                <p class="home__about__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor in cididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam.
+                </p>
+
+                <button class="home__about__details">
+                  Детальніше <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </li>
+
+              <li class="home__about__item media-slide">
+                <div class="home__about__image__container">
+                  <img
+                    class="home__about__image"
+                    src="../images/main/about-logo-3.svg"
+                    alt="company logo"
+                  />
+                </div>
+                <p class="home__about__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor in cididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <button class="home__about__details">
+                  Детальніше <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </li>
+
+              <li class="home__about__item media-slide">
+                <div class="home__about__image__container">
+                  <img
+                    class="home__about__image"
+                    src="../images/main/about-logo-1.png"
+                    alt="company logo"
+                  />
+                </div>
+
+                <p class="home__about__text">
+                  Мета проєкту — покращити навички учнів висловлювати свою думку
+                  на письмі через навчання вчителів провідного українського та
+                  міжнародного досвіду.
+                </p>
+
+                <button class="home__about__details">
+                  Детальніше <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </li>
+
+              <li class="home__about__item media-slide">
+                <div class="home__about__image__container">
+                  <img
+                    class="home__about__image"
+                    src="../images/main/about-logo-2.png"
+                    alt="company logo"
+                  />
+                </div>
+                <p class="home__about__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor in cididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam.
+                </p>
+
+                <button class="home__about__details">
+                  Детальніше <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </li>
+
+              <li class="home__about__item media-slide">
+                <div class="home__about__image__container">
+                  <img
+                    class="home__about__image"
+                    src="../images/main/about-logo-3.svg"
+                    alt="company logo"
+                  />
+                </div>
+                <p class="home__about__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor in cididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <button class="home__about__details">
+                  Детальніше <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </li>
+            </ul>
+
+            <div class="home__about__nav-buttons">
+              <button onclick="goPrevMedia()" id="left">
+                <img src="../images/main/arrow-left.svg" alt="arrow left" />
+              </button>
+
+              <button onclick="goNextMedia()" id="right">
+                <img src="../images/main/arrow-right.svg" alt="arrow right" />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home__partners">
+          <h1 class="home__partners__title">Партнери проєкту</h1>
+
+          <ul class="home__partners__list">
+            <li class="home__partners__item">
+              <img src="../images/main/partner-1.png" alt="partner" />
+            </li>
+
+            <li class="home__partners__item">
+              <img src="../images/main/partner-2.png" alt="partner" />
+            </li>
+
+            <li class="home__partners__item">
+              <img src="../images/main/partner-3.png" alt="partner" />
+            </li>
+
+            <li class="home__partners__item">
+              <img src="../images/main/partner-4.png" alt="partner" />
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <section class="footer__content">
+            <form class="footer__form">
+              <h1 class="footer__form__title">Напишіть нам</h1>
+
+              <div class="footer__form__block">
+                <label for="footer-name">Ваше ім’я</label>
+                <input
+                  type="text"
+                  id="footer-name"
+                  placeholder="Input Your Name"
+                />
+              </div>
+
+              <div class="footer__form__block">
+                <label for="footer-email">Ваш Email</label>
+                <input
+                  type="email"
+                  id="footer-email"
+                  placeholder="Input Your Email"
+                />
+              </div>
+
+              <div class="footer__form__block">
+                <label for="footer-msg">Ваше повідомлення</label>
+                <textarea
+                  id="footer-msg"
+                  placeholder="Input Your Message"
+                ></textarea>
+              </div>
+
+              <button type="submit">Відправити</button>
+            </form>
+
+            <div class="footer__description">
+              <img
+                class="footer__description__logo"
+                src="../images/footer/footer-logo.png"
+                alt="logo"
+              />
+
+              <ul class="footer__description__list">
+                <li class="footer__description__item">
+                  Усі виключні майнові й немайнові права інтелектуальної
+                  власності на текстові матеріали, фото, зображення, та інші
+                  об’єкти авторського права, що розміщені на цьому веб-сайті
+                  належать ГО “Смарт освіта”, крім об’єктів авторського права,
+                  які містять пряму вказівку на авторство іншої особи;".
+                </li>
+
+                <li class="footer__description__item">
+                  ГО "Смарт освіта" надає дозвіл на безоплатне використання
+                  розміщених на веб-сайті матеріалів,  в навчальному процесі у
+                  закладах загальної середньої освіти. 
+                </li>
+
+                <li class="footer__description__item">
+                  Будь-яке інше використання  матеріалів, що розміщені на
+                  веб-сайті, окрім того, що зазначене у  цьому повідомленні, в
+                  будь-якій формі та будь-яким способом (в тому числі з метою
+                  отримання матеріальної вигоди), без попередньо отриманого
+                  письмового дозволу ГО «Смарт освіта», заборонено.
+                </li>
+              </ul>
+
+              <div class="footer__description__socials">
+                <a class="footer__link" href="#">Всі права захищені.</a>
+
+                <ul class="footer__socials__list">
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+
+                  <li class="footer__socials__item">
+                    <a href="#">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+
+                <a class="footer__link__mobile" href="#">Всі права захищені.</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
